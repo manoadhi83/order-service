@@ -2,9 +2,9 @@ spring:
   application:
     name: order-service
   profiles:
-    active: dev
+    active: minikube
 
 server:
-  port: 8083
+  port: 9093
 
 
